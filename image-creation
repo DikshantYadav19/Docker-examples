@@ -1,0 +1,13 @@
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+116c5e18750b        8 minutes ago       /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "ngin…   0B                  
+bcfceb8d70e9        8 minutes ago       /bin/sh -c #(nop)  EXPOSE 80                    0B                  
+a127b673f5e4        8 minutes ago       /bin/sh -c #(nop) COPY file:f94400aa6c0c70e9…   22B                 
+8228a007990e        8 minutes ago       /bin/sh -c rm -rf [/var/www/html/index.nginx…   0B                  
+1d6ddf79b219        About an hour ago   /bin/sh -c apt-get install -y nginx             60.2MB              
+9f166ab36aec        About an hour ago   /bin/sh -c apt-get update                       28MB                
+18f99e937161        About an hour ago   /bin/sh -c #(nop)  MAINTAINER Dikshant          0B                  
+ccc6e87d482b        4 weeks ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           4 weeks ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B                  
+<missing>           4 weeks ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B                
+<missing>           4 weeks ago         /bin/sh -c [ -z "$(apt-get indextargets)" ]     987kB               
+<missing>           4 weeks ago         /bin/sh -c #(nop) ADD file:08e718ed0796013f5…   63.2MB              
