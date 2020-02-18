@@ -1,0 +1,16 @@
+FROM ubuntu
+MAINTAINER Dikshant
+RUN apt-get update
+RUN apt-get install -y python3.6
+COPY helloworld.py /usr/src/helloworld.py
+CMD python3.6 /usr/src/helloworld.py
+EXPOSE 80
+
+
+
+
+
+
+
+
+
